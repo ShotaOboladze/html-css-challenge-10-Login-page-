@@ -1,0 +1,212 @@
+@import url(./normalize.css);
+@import url(./reset.css);
+@import url(./fonts.css);
+@import url(./support.css);
+@import url(./aio.css);
+
+* {
+  box-sizing: border-box;
+}
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Section_Login */
+.section_login {
+  width: 57%;
+  height: 100%;
+  background-color: #f0f2f5;
+  padding-top: 30px;
+}
+.section_login .top-navigation {
+  width: 80%;
+  margin-bottom: 80px;
+}
+.top-navigation li {
+  gap: 10px;
+}
+.nav-left a {
+  font-family: "Inter-Medium";
+  font-size: 15px;
+}
+.nav-right a {
+  font-family: "Poppins-Light";
+  font-size: 14px;
+}
+.nav-right > ul > li > a:last-of-type {
+  color: #20dc49;
+  font-family: "Poppins-Medium";
+  font-size: 14px;
+}
+.login-form h1 {
+  color: #000;
+  font-family: "Poppins-SemiBold";
+  font-size: 32px;
+  line-height: 44px; /* 122.222% */
+}
+.login-form h3 {
+  color: #000;
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  line-height: 29.163px; /* 162.016% */
+  margin-bottom: 40px;
+}
+.login-form .button-navigation {
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.login-form button {
+  width: 120px;
+  height: 38px;
+  border-radius: 5px;
+  border: 1px solid #20dc49;
+  background: #fff;
+  color: #000;
+  font-family: "Poppins-Medium";
+  font-size: 12px;
+  gap: 8px;
+}
+.login-form button:last-of-type {
+  border: 1px solid rgba(222, 222, 222, 1);
+}
+.login-form a {
+  font-family: "Poppins-Regular";
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+input {
+  width: 360px;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  outline: none;
+  font-family: "Poppins-Regular";
+  margin-bottom: 20px;
+}
+form .remebmer-recover {
+  margin-bottom: 30px;
+}
+input[placeholder] {
+  padding-left: 20px;
+  color: #5a5a5a;
+  font-size: 14px;
+}
+input[value] {
+  background-color: #f0f2f5;
+  color: #5a5a5a;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #5a5a5a;
+}
+input[value]:hover {
+  font-weight: bolder;
+}
+.form-line > img {
+  top: 25%;
+  right: 5%;
+}
+.switch-chek span {
+  color: #1a1a1a;
+  font-family: "Poppins-Regular";
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  padding-left: 5px;
+}
+.switch-chek + a {
+  color: #d93f21;
+  font-family: "Poppins-Regular";
+  font-size: 12px;
+}
+/* Switch-Check */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+input:checked + .slider {
+  background-color: #2196f3;
+}
+input:focus + .slider {
+  box-shadow: 0px 0px 1px #c9c9c9;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+/* END Switch-Check */
+
+/* Section_Linkedin-Image */
+.section_linkedin-image {
+  width: 43%;
+  height: 100%;
+  background: url(../img/linkedin-background.jpg) center/cover no-repeat;
+  padding-bottom: 40px;
+}
+.section_linkedin-image .box {
+  width: 540px;
+  height: 260px;
+  padding: 0px 60px 0px 35px;
+  gap: 25px;
+  border: none;
+  border-radius: 9px;
+  background: #fff2f2;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+}
+.section_linkedin-image button {
+  width: 230px;
+  height: 42px;
+  border: none;
+  border-radius: 9px;
+  background: #20dc49;
+  color: #000;
+  font-family: "Roboto-Regular";
+  font-size: 14px;
+  gap: 8px;
+}
+.section_linkedin-image p {
+  font-family: "Poppins-Regular";
+  color: #202020;
+  font-size: 18px;
+  line-height: 30px;
+}

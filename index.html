@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge-10(Login-Page)</title>
+    <meta name="keywords" content="Front-End Develepment, Figma" />
+    <meta
+      name="describtion"
+      content="html-css-challenge-Login-Page-დავალება-10"
+    />
+    <meta name="author" content="Sh.Oboladze" />
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icons/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="icons/favicon/site.webmanifest" />
+    <!-- END favicon -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <!-- Section_Login -->
+      <section class="section_login flex-col-jc-start">
+        <!-- Top-Navigation -->
+        <nav class="top-navigation flex-cen-jc-spbet">
+          <div class="nav-left">
+            <ul>
+              <li>
+                <img src="./icons/send-icon.svg" alt="Send-Icon" />
+                <a href="#">Logo here</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-right flex-cen-jc-cen">
+            <ul>
+              <li>
+                <a href="#">Don’t have an account?</a>
+                <a href="#">Sign up!</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- END Top-Navigation -->
+        <!-- Login-Form -->
+        <div class="login-form flex-col-ai-cen">
+          <h1>Welcome Back</h1>
+          <h3>Login into your account</h3>
+          <nav class="button-navigation flex-cen-jc-cen">
+            <button type="button">
+              <img
+                src="./icons/google-icon.svg"
+                alt="Google-Icon"
+                width="20%"
+              />
+              Google
+            </button>
+            <button type="button">
+              <img
+                src="./icons/facebook-icon.svg"
+                alt="Facebook-Icon"
+                width="20%"
+              />
+              Facebook
+            </button>
+          </nav>
+          <a href="#">Or continue with</a>
+        </div>
+        <form action="contact.html">
+          <div class="form-line">
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="form-line rel">
+            <input type="password" placeholder="Password" />
+            <img src="./icons/eye-icon.svg" alt="Eye-Icon" class="abs" />
+          </div>
+          <div class="form-line remebmer-recover flex-cen-jc-spbet">
+            <div class="switch-chek flex-cen-jc-cen">
+              <!-- Switch-Check  -->
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+              <span>Remember me</span>
+              <!-- END Switch-Check  -->
+            </div>
+            <a href="#">Recover Password</a>
+          </div>
+          <div class="form-line">
+            <input type="submit" value="Log In" />
+          </div>
+        </form>
+        <!-- Login-Form -->
+      </section>
+      <!-- END Section_Login -->
+      <!--  Section_Linkedin-Image -->
+      <section class="section_linkedin-image flex-cen-ai-end">
+        <div class="box flex-col-ai-left">
+          <button type="button">
+            <img src="./icons/thumbs-up-icon.svg" alt="Thumbs-Up-Icon" />
+            Top Notch Stock Resources
+          </button>
+          <p>
+            Today, we create innovative solutions to the challenges that
+            consumers face in both their everyday lives and events.
+          </p>
+        </div>
+      </section>
+      <!-- END  Section_Image -->
+    </main>
+  </body>
+</html>

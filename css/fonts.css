@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: local("Roboto-Regular");
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter-Medium";
+  src: local("Inter-Medium");
+  src: url(../fonts/Inter-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: local("Poppins-Light");
+  src: url(../fonts/Poppins-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: local("Poppins-Regular");
+  src: url(../fonts/Poppins-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: local("Poppins-Medium");
+  src: url(../fonts/Poppins-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: local("Poppins-SemiBold");
+  src: url(../fonts/Poppins-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
